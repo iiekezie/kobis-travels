@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kobis-travels/static/css/main.e6c13ad2.css",
-    "main.js": "/kobis-travels/static/js/main.d0c9ab8f.js",
-    "static/js/453.5246d7ae.chunk.js": "/kobis-travels/static/js/453.5246d7ae.chunk.js",
-    "index.html": "/kobis-travels/index.html",
-    "main.e6c13ad2.css.map": "/kobis-travels/static/css/main.e6c13ad2.css.map",
-    "main.d0c9ab8f.js.map": "/kobis-travels/static/js/main.d0c9ab8f.js.map",
-    "453.5246d7ae.chunk.js.map": "/kobis-travels/static/js/453.5246d7ae.chunk.js.map"
+    "main.css": "/kobis-travels%20/static/css/main.b2e7409f.css",
+    "main.js": "/kobis-travels%20/static/js/main.a76ba469.js",
+    "static/js/453.5246d7ae.chunk.js": "/kobis-travels%20/static/js/453.5246d7ae.chunk.js",
+    "index.html": "/kobis-travels%20/index.html",
+    "main.b2e7409f.css.map": "/kobis-travels%20/static/css/main.b2e7409f.css.map",
+    "main.a76ba469.js.map": "/kobis-travels%20/static/js/main.a76ba469.js.map",
+    "453.5246d7ae.chunk.js.map": "/kobis-travels%20/static/js/453.5246d7ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.d0c9ab8f.js"
+    "static/css/main.b2e7409f.css",
+    "static/js/main.a76ba469.js"
   ]
 }
