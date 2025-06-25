@@ -1,38 +1,236 @@
-.App {
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb; /* Light gray background */
+  color: #111827; /* Dark text */
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  width: 120px;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  font-weight: 600;
+  color: #3b82f6; /* Tailwind blue-500 */
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-image: url('https://picsum.photos/1920/600 ');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2563eb;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.contact-button-whatsapp {
+  background-color: #10b981;
+}
+
+.contact-button-call {
+  background-color: #ef4444;
+}
+
+.contact-button-email {
+  background-color: #f59e0b;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 0;
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Cards */
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card:hover {
+  transform: translateY(-5px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin-bottom: 1rem;
+}
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+input,
+textarea {
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  width: 100%;
+  resize: vertical;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button[type="submit"] {
+  align-self: flex-start;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  color: #3b82f6;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #2563eb;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav a {
+    margin-left: 1rem;
+    font-size: 0.9rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
   }
 }

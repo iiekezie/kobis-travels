@@ -1,70 +1,192 @@
-# Getting Started with Create React App
+```markdown
+# Kobis Travels & Tours
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✈️ Personalized Support for Your Academic, Travel & Visa Goals
 
-## Available Scripts
+A modern, responsive website built with React for **Kobis Travels & Tours**, a travel and visa consultancy firm that helps individuals study, travel, and live abroad with expert guidance.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**: Mobile-first layout that works seamlessly across all devices.
+- **Core Pages**:
+  - Home Page with Hero Section, CTA, and Contact Buttons
+  - About Us: Company Overview, Mission, Vision, and Team Members
+  - Services: Detailed list of services offered
+  - Book Consultation: Form-based scheduling with session type selection
+  - Contact Page: Contact form, social links, and Google Maps integration
+- **Contact Shortcuts**: WhatsApp, Call, Email buttons in the hero section
+- **Modern UI/UX**: Clean design using utility-first styling (Tailwind-like approach)
+- **SEO Ready**: Meta tags and semantic HTML structure
+- **Test Coverage**: Basic smoke tests using React Testing Library
+- **Performance Monitoring**: Web Vitals reporting included
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧰 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology        | Description                             |
+|------------------|-----------------------------------------|
+| React             | JavaScript library for building UI      |
+| React Router      | For client-side routing                 |
+| CSS               | Custom global and component styles      |
+| Jest              | JavaScript testing framework            |
+| React Testing Library | For writing unit/integration tests |
+| Webpack           | Module bundler                          |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+kobis-travels/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── App.test.js
+│   ├── index.js
+│   ├── index.css
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+│   └── logo.svg
+├── README.md
+├── package.json
+└── .gitignore
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js (v14 or higher)
+- npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
+```bash
+git clone https://github.com/your-username/kobis-travels.git
+cd kobis-travels
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+3. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛠️ Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Script          | Description                           |
+|----------------|---------------------------------------|
+| `npm start`     | Runs the app in development mode      |
+| `npm run build` | Builds the app for production         |
+| `npm test`      | Runs the test suite                   |
+| `npm run eject` | Ejects from Create React App (not recommended unless necessary) |
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🧪 Running Tests
 
-### Deployment
+To run unit and integration tests:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm test
+```
 
-### `npm run build` fails to minify
+This will execute the tests located in `App.test.js`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📦 Deployment
+
+You can deploy your site using any static hosting service like:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- GitHub Pages
+- Firebase Hosting
+
+Example using **Vercel**:
+
+```bash
+vercel
+```
+
+Or build and deploy manually:
+
+```bash
+npm run build
+```
+
+Then upload the contents of the `build/` folder.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project, feel free to:
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+Please follow standard code formatting and write clear commit messages.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📞 Contact
+
+For questions or support, reach out to us at:
+
+📧 Email: [kobistravelsandtours@gmail.com](mailto:kobistravelsandtours@gmail.com)  
+📱 WhatsApp: [+234 814 357 4770](https://wa.me/+2348143574770)
+
+Follow us on:
+- 📘 Facebook: [facebook.com/kobistravelsandtours](https://facebook.com/kobistravelsandtours)
+- 📸 Instagram: [instagram.com/kobistravelsandtours](https://instagram.com/kobistravelsandtours)
+- 🎵 TikTok: [tiktok.com/@kobistravelsandtours](https://tiktok.com/@kobistravelsandtours)
+
+---
+
+Made with ❤️ by **Kobis Travels & Tours Ltd**
+```
+
+---
+
+### 📁 Where to Place This File:
+Place this file in the **root directory** of your project:
+
+```
+kobis-travels/
+├── README.md   ✅
+├── package.json
+├── public/
+└── src/
+```
+
+---
