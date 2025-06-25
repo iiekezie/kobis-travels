@@ -169,10 +169,9 @@ Follow us on:
 - 📸 Instagram: [instagram.com/kobistravelsandtours](https://instagram.com/kobistravelsandtours)
 - 🎵 TikTok: [tiktok.com/@kobistravelsandtours](https://tiktok.com/@kobistravelsandtours)
 
----
 
 Made with ❤️ by **Kobis Travels & Tours Ltd**
-```
+
 
 
 ### 📁 Where to Place This File:
