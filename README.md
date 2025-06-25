@@ -1,4 +1,3 @@
-```markdown
 # Kobis Travels & Tours
 
 ✈️ Personalized Support for Your Academic, Travel & Visa Goals
@@ -22,7 +21,6 @@ A modern, responsive website built with React for **Kobis Travels & Tours**, a t
 - **Test Coverage**: Basic smoke tests using React Testing Library
 - **Performance Monitoring**: Web Vitals reporting included
 
----
 
 ## 🧰 Technologies Used
 
