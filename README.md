@@ -162,7 +162,7 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 For questions or support, reach out to us at:
 
 📧 Email: [kobistravelsandtours@gmail.com](mailto:kobistravelsandtours@gmail.com)  
-📱 WhatsApp: [+234 814 357 4770](https://wa.me/+2348143574770)
+📱 WhatsApp: [+234 814 357 4770](https://wa.me/2348143574770)
 
 Follow us on:
 - 📘 Facebook: [facebook.com/kobistravelsandtours](https://facebook.com/kobistravelsandtours)
