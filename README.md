@@ -173,16 +173,3 @@ Follow us on:
 Made with ❤️ by **Kobis Travels & Tours Ltd**
 
 
-
-### 📁 Where to Place This File:
-Place this file in the **root directory** of your project:
-
-
-kobis-travels/
-├── README.md   ✅
-├── package.json
-├── public/
-└── src/
-
-
-
